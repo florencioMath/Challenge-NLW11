@@ -13,7 +13,7 @@ export function AppRoutes() {
 
       <Screen name="new" component={New} />
 
-      <Screen name="Habit" component={Habit} />
+      <Screen name="habit" component={Habit} />
     </Navigator>
   );
 }

@@ -78,6 +78,9 @@ export function Home() {
               return (
                 <HabitHay
                   key={date.toISOString()}
+                  date={date}
+                  amountOfHabits={dayWithHabits?.amount}
+                  amountCompleted={dayWithHabits?.completed}
                   onPress={() =>
                     navigate("habit", { date: date.toISOString() })
                   }

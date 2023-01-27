@@ -44,9 +44,9 @@ export function Home() {
     fetchData();
   }, []);
 
-  // if (loading) {
-  //   return <Loading />;
-  // }
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <View className="bg-background flex-1 px-8 pt-16">

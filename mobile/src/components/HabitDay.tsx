@@ -20,7 +20,7 @@ interface Props extends TouchableOpacityProps {
   date: Date;
 }
 
-export function HabitHay({
+export function HabitDay({
   amountOfHabits = 0,
   amountCompleted = 0,
   date,

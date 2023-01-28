@@ -40,7 +40,7 @@ export function New() {
   async function handleCreateNewHabit() {
     try {
       if (!title.trim() || weekDays.length === 0) {
-        Alert.alert(
+        return Alert.alert(
           "Novo hábito",
           "Informe o nome do hábito e escolha a periodicidade."
         );
@@ -96,6 +96,7 @@ export function New() {
         <TouchableOpacity
           activeOpacity={0.7}
           className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-6"
+          onPress={handleCreateNewHabit}
         >
           <Feather name="check" size={20} color={colors.white} />
           <Text className="font-semibold text-base text-white ml-2">

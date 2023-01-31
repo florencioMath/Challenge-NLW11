@@ -45,6 +45,10 @@ This project was developed with the following technologies:
 <!-- LAYOUT -->
 ## <a id="layout">Layout</a>
 
+You can view the project layout through the links below:
+
+- [Figma](<https://www.figma.com/file/pJpaMSKVfCmPUMZJOVwquQ/Habits-(i)-(Community)?node-id=6%3A344&t=1UcC6dIPVGBxdhpz-1>)
+
 <details>
 <summary>Take a look at how it turned out:</summary>
   <br>
